@@ -18,14 +18,15 @@ const Pages = () => {
     return <>
     <Router>
     <Header />
-    <Switch>
+  <Routes>
           <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/services' component={Services} />
-          <Route exact path='/blog' component={Blog} />
-          <Route exact path='/pricing' component={Pricing} />
-          <Route exact path='/contact' component={Contact} />
-        </Switch>
+          <Route  path='/about' component={About} />
+          <Route  path='/services' component={Services} />
+          <Route  path='/blog' component={Blog} />
+          <Route  path='/pricing' component={Pricing} />
+
+    </Routes>
+  
 
     </Router>
 

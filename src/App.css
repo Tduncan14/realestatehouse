@@ -19,8 +19,19 @@ body{
 }
 
 
-a {
+ a {
   text-decoration:none;
   color:#000;
   text-transform:capitalize;
 }
+
+li{
+  list-style-type:none;
+}
+
+.flex {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
