@@ -24,6 +24,82 @@ header h4{
     margin-right:20px;
 }
 
+.logo{
+    margin-left:50px;
+
+}
+
 header .toggle {
     display:none;
+}
+
+header a :hover{
+    color:#27ae60;
+}
+
+
+header span {
+    width:auto;
+    padding:0 6px;
+    background-color:#27ae60;
+    border-radius:50px;
+    color:#fff;
+    margin-right:4px;
+    font-weight:400px;
+}
+
+header h4{
+    font-weight:500;
+    margin-right:20px;
+}
+
+header .toggle{
+    display:none;
+}
+
+
+@media screen and (max-width:768px) {
+
+    header {
+        padding:0;
+    }
+
+    header .img{
+        margin-top:30px;
+    }
+
+    header .button{
+        display:none;
+    }
+
+    header .nav .flex{
+        display:none;
+    }
+
+
+    header .toggle {
+        display:block;
+        margin-top:20px;
+        padding-bottom:10px;
+        
+    }
+
+
+    header .small{
+        position:absolute;
+        top:10vh;
+        left:0;
+        width:100%;
+        background-color: #27ae60;
+        padding:20px;
+    }
+
+    header li a {
+        display:inline-block;
+        margin-bottom:20px;
+        color:#fff;
+    }
+
+
+
 }

@@ -15,6 +15,7 @@ body{
 .container{
   max-width:80%;
   justify-content:space-between;
+  margin: auto;
   align-items: center;
 }
 
@@ -34,4 +35,76 @@ li{
   justify-content:space-between;
   align-items: center;
 }
+
+
+button{
+  border-radius:5px;
+  padding:17px 30px;
+  background-color:#27ae60;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+
+button i {
+  margin-right:5px;
+}
+
+
+.heading {
+  text-align:center;
+  width:60%;
+  text-transform: capitalize;
+  margin:auto;
+}
+
+.heading h1{
+  color:#2f3954;
+  font-weight:600;
+  font-size:35px;
+}
+
+.heading p {
+  color:#72809d;
+}
+
+textarea,input{
+  border:none;
+  outline:none;
+  background-color:none;
+}
+
+
+.background{
+  padding:80px 0;
+  position:relative;
+  background-color:#f7f9fc;
+}
+
+
+
+.grid5{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  grid-gap:30px;
+}
+
+label{
+  color:#2d3954;
+  font-size:14px;
+}
+
+
+.mtop{
+  margin-top:50px;
+}
+
+
+h4{
+  font-weight:500;
+  margin-top:10px;
+}
+
 

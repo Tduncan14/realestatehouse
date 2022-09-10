@@ -19,11 +19,11 @@ const Pages = () => {
     <Router>
     <Header />
   <Routes>
-          <Route exact path='/' component={Home} />
-          <Route  path='/about' component={About} />
-          <Route  path='/services' component={Services} />
-          <Route  path='/blog' component={Blog} />
-          <Route  path='/pricing' component={Pricing} />
+          <Route exact path='/' element={<Home />} />
+          <Route  path='/about' element={<About />} />
+          <Route  path='/services' element={<Services />} />
+          <Route  path='/blog' element={<Blog />} />
+          <Route  path='/pricing' element={<Pricing />} />
 
     </Routes>
   
