@@ -18,7 +18,7 @@ const Footer = () => {
     </section>
 
     <footer>
-        <div className="contain">
+        <div className="container">
             <div className="box">
                 <div className="logo">
                     <img src="../images/logo-light.png " alt="" />
@@ -47,6 +47,10 @@ const Footer = () => {
 
         </div>
     </footer>
+
+    <div className="legal">
+         <span>Treek</span>
+    </div>
     </>
   )
 }
