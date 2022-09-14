@@ -5,6 +5,7 @@ import Recent from './recent/Recent'
 import Awards from './awards/Awards'
 import Location from './location/Location'
 import Team from './team/Team'
+import Pricing from '../Pricing/Pricing'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
      <Recent />
      <Awards />
      <Location />
-     <Team / >
+     <Team />
+     <Pricing />
       
     </div>
   )

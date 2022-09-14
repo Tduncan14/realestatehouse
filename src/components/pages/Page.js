@@ -7,6 +7,7 @@ import Blog from '../Blog/Blog';
 import Pricing from '../Pricing/Pricing';
 import Contact from '../Contact/Contact';
 import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom';
+import Footer from '../footer/Footer';
 
 
 
@@ -26,6 +27,7 @@ const Pages = () => {
           <Route  path='/pricing' element={<Pricing />} />
 
     </Routes>
+    <Footer />
   
 
     </Router>

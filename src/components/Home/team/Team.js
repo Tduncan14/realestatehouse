@@ -22,8 +22,8 @@ const Team = () => {
             <div className="box" key={index}>
                 <button className="btn3">{val.list} Listings </button>
 
-                <div className="details">
-                       <img src={val.cover} alt='' />
+                <div className="details img">
+                       <img  className=""src={val.cover} alt='' />
                        <i className=" fa fa-circle-check"></i>
                 </div>
                 <i className="fa fa-location-dot"></i>
@@ -32,11 +32,24 @@ const Team = () => {
 
 
                 <ul>
-                    {val.icon.map((icon,index) => {
+                    {val.icon.map((icon,index) => (
 
                         <li key={index}>{icon}</li>
-                    })}
+         ))}
                 </ul>
+
+                <div className="button flex">
+                    <button>
+                    < i className="fa fa-envelope"></i>
+                    </button>
+
+                    <button className="btn4">
+                    < i className="fa fa-phone-alt"></i>
+                    </button>
+
+
+                </div>
+
             </div>
          )
 
